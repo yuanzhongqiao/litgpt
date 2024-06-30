@@ -36,14 +36,7 @@
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 LitGPT</font></font></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>pip install 'litgpt[all]'
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install 'litgpt[all]'" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加载并使用</font></font><a href="#choose-from-20-llms"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20 多个 LLM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的任意一个：</font></font></p>
 <div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">litgpt</span> <span class="pl-k">import</span> <span class="pl-v">LLM</span>
@@ -52,19 +45,7 @@
 <span class="pl-s1">text</span> <span class="pl-c1">=</span> <span class="pl-s1">llm</span>.<span class="pl-en">generate</span>(<span class="pl-s">"Correct the spelling: Every summer, the familly enjoys a trip to the mountains."</span>)
 <span class="pl-en">print</span>(<span class="pl-s1">text</span>)
 <span class="pl-c"># Corrected Sentence: Every summer, the family enjoys a vacation to the mountains.       </span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from litgpt import LLM
-
-llm = LLM.load(&quot;microsoft/phi-2&quot;)
-text = llm.generate(&quot;Correct the spelling: Every summer, the familly enjoys a trip to the mountains.&quot;)
-print(text)
-# Corrected Sentence: Every summer, the family enjoys a vacation to the mountains.       " tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 <p dir="auto">&nbsp;</p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ 针对快速推理进行了优化</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
@@ -78,16 +59,7 @@ print(text)
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/Lightning-AI/litgpt
 <span class="pl-c1">cd</span> litgpt
 pip install -e <span class="pl-s"><span class="pl-pds">'</span>.[all]<span class="pl-pds">'</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/Lightning-AI/litgpt
-cd litgpt
-pip install -e '.[all]'" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 </details>
 <p dir="auto"><a href="/Lightning-AI/litgpt/blob/main/tutorials/python-api.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">探索完整的 Python API 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
@@ -339,20 +311,7 @@ litgpt  evaluate  meta-llama/Meta-Llama-3-8B-Instruct
 litgpt  finetune  meta-llama/Meta-Llama-3-8B-Instruct
 litgpt  pretrain  meta-llama/Meta-Llama-3-8B-Instruct
 litgpt  serve     meta-llama/Meta-Llama-3-8B-Instruct</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# ligpt [action] [model]
-litgpt  download  meta-llama/Meta-Llama-3-8B-Instruct
-litgpt  chat      meta-llama/Meta-Llama-3-8B-Instruct
-litgpt  evaluate  meta-llama/Meta-Llama-3-8B-Instruct
-litgpt  finetune  meta-llama/Meta-Llama-3-8B-Instruct
-litgpt  pretrain  meta-llama/Meta-Llama-3-8B-Instruct
-litgpt  serve     meta-llama/Meta-Llama-3-8B-Instruct" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 <p dir="auto">&nbsp;</p>
 <hr>
@@ -379,27 +338,7 @@ litgpt finetune microsoft/phi-2 \
 
 <span class="pl-c"><span class="pl-c">#</span> 3) Chat with the model</span>
 litgpt chat out/custom-model/final</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# 1) Download a pretrained model
-litgpt download microsoft/phi-2
-
-# 2) Finetune the model
-curl -L https://huggingface.co/datasets/ksaw008/finance_alpaca/resolve/main/finance_alpaca.json -o my_custom_dataset.json
-
-litgpt finetune microsoft/phi-2 \
-  --data JSON \
-  --data.json_path my_custom_dataset.json \
-  --data.val_split_fraction 0.1 \
-  --out_dir out/custom-model
-
-# 3) Chat with the model
-litgpt chat out/custom-model/final" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 <p dir="auto"><a href="/Lightning-AI/litgpt/blob/main/tutorials/finetune.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读完整的微调文档</font></font></a></p>
 <p dir="auto">&nbsp;</p>
@@ -433,31 +372,7 @@ litgpt pretrain EleutherAI/pythia-160m \
 
 <span class="pl-c"><span class="pl-c">#</span> 3) Test the model</span>
 litgpt chat out/custom-model/final</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mkdir -p custom_texts
-curl https://www.gutenberg.org/cache/epub/24440/pg24440.txt --output custom_texts/book1.txt
-curl https://www.gutenberg.org/cache/epub/26393/pg26393.txt --output custom_texts/book2.txt
-
-# 1) Download a tokenizer
-litgpt download EleutherAI/pythia-160m \
-  --tokenizer_only True
-
-# 2) Pretrain the model
-litgpt pretrain EleutherAI/pythia-160m \
-  --tokenizer_dir EleutherAI/pythia-160m \
-  --data TextFiles \
-  --data.train_data_path &quot;custom_texts/&quot; \
-  --train.max_tokens 10_000_000 \
-  --out_dir out/custom-model
-
-# 3) Test the model
-litgpt chat out/custom-model/final" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 </details>
 <p dir="auto"><a href="/Lightning-AI/litgpt/blob/main/tutorials/pretrain.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读完整的预训练文档</font></font></a></p>
@@ -492,31 +407,7 @@ litgpt pretrain EleutherAI/pythia-160m \
 
 <span class="pl-c"><span class="pl-c">#</span> 3) Test the model</span>
 litgpt chat out/custom-model/final</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mkdir -p custom_texts
-curl https://www.gutenberg.org/cache/epub/24440/pg24440.txt --output custom_texts/book1.txt
-curl https://www.gutenberg.org/cache/epub/26393/pg26393.txt --output custom_texts/book2.txt
-
-# 1) Download a pretrained model
-litgpt download EleutherAI/pythia-160m
-
-# 2) Continue pretraining the model
-litgpt pretrain EleutherAI/pythia-160m \
-  --tokenizer_dir EleutherAI/pythia-160m \
-  --initial_checkpoint_dir EleutherAI/pythia-160m \
-  --data TextFiles \
-  --data.train_data_path &quot;custom_texts/&quot; \
-  --train.max_tokens 10_000_000 \
-  --out_dir out/custom-model
-
-# 3) Test the model
-litgpt chat out/custom-model/final" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 </details>
 <p dir="auto"><a href="/Lightning-AI/litgpt/blob/main/tutorials/pretrain.md#continued-pretraining-on-custom-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读完整的预训练文档</font></font></a></p>
@@ -527,14 +418,7 @@ litgpt chat out/custom-model/final" tabindex="0" role="button">
 <details>
   <summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显示代码：</font></font></summary>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>litgpt evaluate microsoft/phi-2 --tasks <span class="pl-s"><span class="pl-pds">'</span>truthfulqa_mc2,mmlu<span class="pl-pds">'</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="litgpt evaluate microsoft/phi-2 --tasks 'truthfulqa_mc2,mmlu'" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 </details>
 <p dir="auto"><a href="/Lightning-AI/litgpt/blob/main/tutorials/evaluation.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读完整的评估文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
@@ -557,19 +441,7 @@ litgpt serve microsoft/phi-2
 <span class="pl-c"><span class="pl-c">#</span> Alternative: if you haven't finetuned, download any checkpoint to deploy it:</span>
 litgpt download microsoft/phi-2
 litgpt serve microsoft/phi-2</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# locate the checkpoint to your finetuned or pretrained model and call the `serve` command:
-litgpt serve microsoft/phi-2
-
-# Alternative: if you haven't finetuned, download any checkpoint to deploy it:
-litgpt download microsoft/phi-2
-litgpt serve microsoft/phi-2" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+ 
   </div></div>
 <p dir="auto">Test the server in a separate terminal and integrate the model API into your AI product:</p>
 <div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"># 3) Use the server (in a separate Python session)</span>
@@ -579,20 +451,7 @@ litgpt serve microsoft/phi-2" tabindex="0" role="button">
     <span class="pl-s1">json</span><span class="pl-c1">=</span>{<span class="pl-s">"prompt"</span>: <span class="pl-s">"Fix typos in the following sentence: Exampel input"</span>}
 )
 <span class="pl-en">print</span>(<span class="pl-s1">response</span>.<span class="pl-en">json</span>()[<span class="pl-s">"output"</span>])</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# 3) Use the server (in a separate Python session)
-import requests, json
-response = requests.post(
-    &quot;http://127.0.0.1:8000/predict&quot;,
-    json={&quot;prompt&quot;: &quot;Fix typos in the following sentence: Exampel input&quot;}
-)
-print(response.json()[&quot;output&quot;])" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 </details>
 <p dir="auto"><a href="/Lightning-AI/litgpt/blob/main/tutorials/deploy.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读完整的部署文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
@@ -620,23 +479,7 @@ litgpt download microsoft/phi-2
 litgpt chat microsoft/phi-2
 
 <span class="pl-k">&gt;&gt;</span> Prompt: What <span class="pl-k">do</span> Llamas eat<span class="pl-k">?</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# 1) List all available models in litgpt
-litgpt download list
-
-# 2) Download a pretrained model
-litgpt download microsoft/phi-2
-
-# 3) Chat with the model
-litgpt chat microsoft/phi-2
-
->> Prompt: What do Llamas eat?" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto">The download of certain models requires an additional access token. You can read more about this in the <a href="/Lightning-AI/litgpt/blob/main/tutorials/download_model_weights.md#specific-models-and-access-tokens">download</a> documentation.</p>
 </details>
@@ -661,15 +504,7 @@ litgpt chat microsoft/phi-2
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></h3><a id="user-content-example" class="anchor" aria-label="永久链接：示例" href="#example"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>litgpt finetune \
   --config https://raw.githubusercontent.com/Lightning-AI/litgpt/main/config_hub/finetune/llama-2-7b/lora.yaml</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="litgpt finetune \
-  --config https://raw.githubusercontent.com/Lightning-AI/litgpt/main/config_hub/finetune/llama-2-7b/lora.yaml" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <details>
   <summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ 使用配置来定制训练</font></font></summary>
@@ -684,23 +519,7 @@ litgpt chat microsoft/phi-2
 <span class="pl-ent">precision</span>: <span class="pl-s">bf16-true</span>
 
 ...</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# The path to the base model's checkpoint directory to load for finetuning. (type: <class 'Path'>, default: checkpoints/stabilityai/stablelm-base-alpha-3b)
-checkpoint_dir: checkpoints/meta-llama/Llama-2-7b-hf
-
-# Directory in which to save checkpoints and logs. (type: <class 'Path'>, default: out/lora)
-out_dir: out/finetune/qlora-llama2-7b
-
-# The precision to use for finetuning. Possible choices: &quot;bf16-true&quot;, &quot;bf16-mixed&quot;, &quot;32-true&quot;. (type: Optional[str], default: null)
-precision: bf16-true
-
-..." tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 </details>
 <details>
@@ -828,135 +647,7 @@ precision: bf16-true
 
 <span class="pl-c"><span class="pl-c">#</span> The random seed to use for reproducibility. (type: int, default: 1337)</span>
 <span class="pl-ent">seed</span>: <span class="pl-c1">1337</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# The path to the base model's checkpoint directory to load for finetuning. (type: <class 'Path'>, default: checkpoints/stabilityai/stablelm-base-alpha-3b)
-checkpoint_dir: checkpoints/meta-llama/Llama-2-7b-hf
-
-# Directory in which to save checkpoints and logs. (type: <class 'Path'>, default: out/lora)
-out_dir: out/finetune/qlora-llama2-7b
-
-# The precision to use for finetuning. Possible choices: &quot;bf16-true&quot;, &quot;bf16-mixed&quot;, &quot;32-true&quot;. (type: Optional[str], default: null)
-precision: bf16-true
-
-# If set, quantize the model with this algorithm. See ``tutorials/quantize.md`` for more information. (type: Optional[Literal['nf4', 'nf4-dq', 'fp4', 'fp4-dq', 'int8-training']], default: null)
-quantize: bnb.nf4
-
-# How many devices/GPUs to use. (type: Union[int, str], default: 1)
-devices: 1
-
-# The LoRA rank. (type: int, default: 8)
-lora_r: 32
-
-# The LoRA alpha. (type: int, default: 16)
-lora_alpha: 16
-
-# The LoRA dropout value. (type: float, default: 0.05)
-lora_dropout: 0.05
-
-# Whether to apply LoRA to the query weights in attention. (type: bool, default: True)
-lora_query: true
-
-# Whether to apply LoRA to the key weights in attention. (type: bool, default: False)
-lora_key: false
-
-# Whether to apply LoRA to the value weights in attention. (type: bool, default: True)
-lora_value: true
-
-# Whether to apply LoRA to the output projection in the attention block. (type: bool, default: False)
-lora_projection: false
-
-# Whether to apply LoRA to the weights of the MLP in the attention block. (type: bool, default: False)
-lora_mlp: false
-
-# Whether to apply LoRA to output head in GPT. (type: bool, default: False)
-lora_head: false
-
-# Data-related arguments. If not provided, the default is ``litgpt.data.Alpaca``.
-data:
-  class_path: litgpt.data.Alpaca2k
-  init_args:
-    mask_prompt: false
-    val_split_fraction: 0.05
-    prompt_style: alpaca
-    ignore_index: -100
-    seed: 42
-    num_workers: 4
-    download_dir: data/alpaca2k
-
-# Training-related arguments. See ``litgpt.args.TrainArgs`` for details
-train:
-
-  # Number of optimizer steps between saving checkpoints (type: Optional[int], default: 1000)
-  save_interval: 200
-
-  # Number of iterations between logging calls (type: int, default: 1)
-  log_interval: 1
-
-  # Number of samples between optimizer steps across data-parallel ranks (type: int, default: 128)
-  global_batch_size: 8
-
-  # Number of samples per data-parallel rank (type: int, default: 4)
-  micro_batch_size: 2
-
-  # Number of iterations with learning rate warmup active (type: int, default: 100)
-  lr_warmup_steps: 10
-
-  # Number of epochs to train on (type: Optional[int], default: 5)
-  epochs: 4
-
-  # Total number of tokens to train on (type: Optional[int], default: null)
-  max_tokens:
-
-  # Limits the number of optimizer steps to run (type: Optional[int], default: null)
-  max_steps:
-
-  # Limits the length of samples (type: Optional[int], default: null)
-  max_seq_length: 512
-
-  # Whether to tie the embedding weights with the language modeling head weights (type: Optional[bool], default: null)
-  tie_embeddings:
-
-  #   (type: float, default: 0.0003)
-  learning_rate: 0.0002
-
-  #   (type: float, default: 0.02)
-  weight_decay: 0.0
-
-  #   (type: float, default: 0.9)
-  beta1: 0.9
-
-  #   (type: float, default: 0.95)
-  beta2: 0.95
-
-  #   (type: Optional[float], default: null)
-  max_norm:
-
-  #   (type: float, default: 6e-05)
-  min_lr: 6.0e-05
-
-# Evaluation-related arguments. See ``litgpt.args.EvalArgs`` for details
-eval:
-
-  # Number of optimizer steps between evaluation calls (type: int, default: 100)
-  interval: 100
-
-  # Number of tokens to generate (type: Optional[int], default: 100)
-  max_new_tokens: 100
-
-  # Number of iterations (type: int, default: 100)
-  max_iters: 100
-
-# The name of the logger to send metrics to. (type: Literal['wandb', 'tensorboard', 'csv'], default: csv)
-logger_name: csv
-
-# The random seed to use for reproducibility. (type: int, default: 1337)
-seed: 1337" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 </details>
 <details>
